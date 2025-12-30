@@ -1,10 +1,27 @@
-Arcon Civil is a responsive civil engineering company website built using HTML and CSS.
+🔨 Arcon Civil – Construction Company Website
 
-The website features a clean and professional layout designed to showcase construction services, company information, and contact details.
+Arcon Civil is a modern and responsive construction company website built using HTML and CSS. The project focuses on delivering a clean, professional UI suitable for a civil engineering brand.
 
-🔹 Fully responsive design
-🔹 Modern UI layout
-🔹 Smooth navigation
-🔹 Optimized for desktop and mobile devices
+✨ Features
 
-This project demonstrates my skills in structuring web pages and designing professional layouts using pure HTML and CSS.
+Fixed navigation header with company branding
+
+Full-width video hero section for strong visual impact
+
+Clean and structured layout using pure HTML & CSS
+
+Animated client logo slider using CSS keyframes
+
+Modern typography and gradient text styling
+
+Responsive image handling and smooth hover effects
+
+🛠️ Technologies Used
+
+HTML5
+
+CSS3 (Flexbox, Animations, Gradients)
+
+🎯 Purpose
+
+This project demonstrates my ability to build professional, visually engaging websites using core frontend technologies without external frameworks.
