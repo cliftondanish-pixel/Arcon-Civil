@@ -212,3 +212,15 @@ p {
     max-width: 500px;
     margin-top: 20px;
 }
+h3 {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: left;
+    color: #ffffff;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
