@@ -291,3 +291,59 @@ h4 {
     font-weight: 700;
     text-align: center;
 }
+.project-cont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+    padding: 0px 100px 50px 180px;
+}
+.project-cont img {
+    width: 90%;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.contact{
+    padding-top: 50px;
+    
+}
+
+.contact-header {
+    background: linear-gradient(to bottom,#4EF1AE 0%,#395270 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 50px 0px 20px 0px;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.overlay-contact button {
+    padding: 20px 40px 20px 40px;
+    background-color: #4EF1AE;
+    color: #000000;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.overlay-contact button:hover {
+    
+    background-color: #ffffff;
+    color: #4EF1AE;
+    transition: 0.5s;
+}
+footer {
+    background-color: #3bb288;
+    padding: 5px 0px 50px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-content {
+    font-size: 15px;
+    padding: 0px 20px 0px 200px;
+
+}
