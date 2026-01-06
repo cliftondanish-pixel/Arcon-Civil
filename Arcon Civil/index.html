@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arcon Civil - Welcome to a new era in construction</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1120ebb25d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <section id="home" class="Home-section">
         <header>
-            <img src="./images/main/ACLogo-1-1.png" alt=" Arcon Civil Logo" class="logo">
+            <a href="#home" class="home-head">
+                <img src="./images/main/ACLogo-1-1.png" alt=" Arcon Civil Logo" class="logo">
+            </a>
             <div class="navbar">
                 <a href="#home">Home</a>
                 <a href="#about-section">About Us</a>
@@ -20,7 +23,7 @@
                 <a href="###">News</a>
             </div>
             <div class="btn">
-                <a href="###">Get In Touch</a>
+                <a href="#contact">Get In Touch</a>
             </div>
         </header>
         <div>
@@ -137,16 +140,47 @@
     <section id="contact" class="contact">
         <div class="image-container">
             <img src="./images/Contact/contact.webp" alt="contact-image">
-            <div class="overlay-contact">
+            <form class="overlay-contact">
                 <h2 class="contact-header">GET IN TOUCH</h2>
                 <input type="text" placeholder="Name">
-                <input type="number" placeholder="Mobile">
+                <input type="tel" placeholder="Mobile">
                 <input type="email" placeholder="Email">
+                <select name="preference" id="dropdown">
+                    <option value="">-- Select --</option>
+                    <option value="Consulting">Consulting</option>
+                    <option value="Delivery">Delivery</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br>
                 <input type="text" placeholder="Subject">
-                <input type="text" placeholder="Message">
-                <button type="submit">Submit</button>
-            </div>
-
+                <br>
+                <textarea name="Message" id="mes" placeholder="Message" rows="4"></textarea>
+                <br>
+                <button class="attach" type="file">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    Attachments
+                </button>
+                <br>
+                <br><br>
+                <button type="submit" class="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <section class="social">
+        <div class="social-div">
+            <img src="./images/main/ACLogo-2.png" alt="home-image" class="logo-position">
+        </div>
+    </section>
+    <section class="flag">
+        <div class="flag-img">
+            <p>
+                <img src="./images/Flag1_x3-pcadzbci2w939ws4hktd1obm1mj86dcjl1usrxaqi4.webp" alt="flag1">
+                <img src="./images/Flag2_x3-pcae6c735bv810kuh4406eilu9wyoy8c7tcevcvu0c.webp" alt="flag2">
+                <br><br>
+                Arcon Civil acknowledges the Traditional Owners of the lands on which our services are located.<br>
+                We honour the strength and resilience of Aboriginal and Torres Strait Islander peoples and pay our
+                respects to all Elders, past and present.
+            </p>
         </div>
     </section>
     <section>

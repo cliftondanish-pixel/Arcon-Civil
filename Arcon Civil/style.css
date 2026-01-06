@@ -22,9 +22,11 @@ header {
     height: 95px;
     width: auto;
     padding: 10px 50px 10px 20px;
-    scroll-behavior: smooth;
+    cursor: pointer;
 }
-
+.home-head {
+    padding: 0px;
+}
 body {
     overflow-x: hidden;
     overflow-y: scroll;
@@ -305,7 +307,7 @@ h4 {
 
 .contact{
     padding-top: 50px;
-    
+    padding-bottom: 100px;
 }
 
 .contact-header {
@@ -318,11 +320,62 @@ h4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
+.image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 100px 150px 15px 150px;
+}
+.image-container img {
+    width: 100%;
+    height: 650px;
+    display: block;
+    border-radius: 20px;
+    
+}
+.overlay-contact {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    padding: 100px 0px 100px 0px;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    text-align: left;
+}
 
-.overlay-contact button {
+
+.overlay-contact input, .overlay-contact textarea , .overlay-contact select {
+    width: 300px;
+    padding: 15px 20px 15px 20px;
+    margin: 10px 0px 10px 0px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    border-bottom: 2px solid #7c837e;
+}
+.overlay-contact select {
+    color: #7c837e;
+}
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-bottom: 2px solid #4EF1AE;
+}
+.overlay-contact button.attach {
+    padding: 8px;
+    border: none;
+    background-color: #dadcde;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.overlay-contact button.submit {
     padding: 20px 40px 20px 40px;
     background-color: #4EF1AE;
-    color: #000000;
     border: none;
     border-radius: 30px;
     cursor: pointer;
@@ -330,12 +383,39 @@ h4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
-.overlay-contact button:hover {
+.overlay-contact button.submit:hover {
     
     background-color: #ffffff;
     color: #4EF1AE;
     transition: 0.5s;
+}
+
+
+section.social {
+    width: 100%;
+    height: 400px;
+    background-color: #112439;
+    padding: 10px 0px 0px 0px;
+}
+img.logo-position {
+    max-width: 100%;
+    padding: 40px 0px 0px 1080px;
+}
+.flag{
+    width: 100%;
+    padding: 10px 0px 30px 0px;
+    background-color: #112439;
+}
+.flag-img p{
+    max-width: 100%;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    line-height: 1.6;
 }
 footer {
     background-color: #3bb288;
