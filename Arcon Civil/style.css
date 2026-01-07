@@ -395,17 +395,112 @@ input:focus, textarea:focus, select:focus {
 
 section.social {
     width: 100%;
-    height: 400px;
+    height: auto;
     background-color: #112439;
     padding: 10px 0px 0px 0px;
 }
-img.logo-position {
+.social-div {
+    position: relative;
+    width: 100%;
+}
+.social-div img {
     max-width: 100%;
     padding: 40px 0px 0px 1080px;
 }
+.social-info img {
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+    padding: 0px 40px 10px 40px;
+    cursor: pointer;
+}
+.social-info {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px 0px 50px 200px;
+    text-align: left;
+    max-width: 90%;
+}
+.social-info p {
+    color: #ffffff80;
+    max-width: 400px;
+}
+.about-para {
+    text-align: center;
+    width: 220px;
+    line-height: 1.2;
+    padding-left: 20px;
+}
+.quick-links a {
+    line-height: 2.5;
+    color: #ffffff80;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 0px;
+    text-transform: none;
+}
+.quick-links a:hover {
+    color: #4EF1AE;
+    transition: 0.5s;   
+}
+.projects-link a {
+    line-height: 1.5;
+    color: #ffffff80;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 0px;
+    text-transform: none;
+}
+.projects-link a:hover {
+    color: #4EF1AE;
+    transition: 0.5s;  
+}
+.projects-link button {
+    color: #ffffff;
+    background-color: #4EF1AE;
+    font-size: 14px;
+    padding: 8px 40px 8px 40px;
+    border-radius: 20px;
+    border: none;
+}
+.projects-link button:hover {
+    color: #000000;
+    background-color: #ffffff;
+    transition: 0.5s;   
+    cursor: pointer;
+}
+.header4 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+}
+h3 {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff80;
+    text-align: left;
+    line-height: 3;
+}
+p.address {
+    padding: 0px 0px 0px 24px;
+    display: inline-flex;
+    line-height: 1.6;
+    width: 250px;
+}
+.git {
+    color: #ffffff80;
+    text-transform: lowercase;
+}
+
+
 .flag{
     width: 100%;
-    padding: 10px 0px 30px 0px;
+    padding: 50px 0px 30px 0px;
     background-color: #112439;
 }
 .flag-img p{
