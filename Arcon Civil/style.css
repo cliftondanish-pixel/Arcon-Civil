@@ -574,20 +574,27 @@ div.line {
     line-height: 1.4;
     padding-top: 20px;
 }
-i{
+
+i {
     margin-right: 10px;
 }
+
 @media (max-width: 600px) {
     .project-card {
         height: 280px;
     }
 }
 
-
-
-
-
-
+div#News {
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
 
 
