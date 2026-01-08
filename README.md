@@ -39,7 +39,7 @@ style.css      → Main stylesheet
 🚀 How to Run the Project
 
 1. Download or clone the repository
-   git clone https://github.com/your-username/arcon-civil.git
+   git clone https://github.com/cliftondanish-pixel/Arcon-Civil.git
 3. Open the folder
 4. Double-click index.html to run in your browser
 
